@@ -72,6 +72,9 @@ DefaultContentLanguage = "de"
 paginate = "10" # Number of posts per page
 theme = "hugo-dpsg"
 
+[outputs] # Needed if using the local-search widget
+  home = ["HTML", "RSS", "JSON"]
+
 [Params]
   description = "Welcome to our scout group!" # Site description. Used in meta description
   copyright = "DGSP local group" # Footer copyright holder, otherwise will use site title
