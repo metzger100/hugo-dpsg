@@ -72,6 +72,11 @@ DefaultContentLanguage = "de"
 paginate = "10" # Number of posts per page
 theme = "hugo-dpsg"
 
+[markup.goldmark.renderer] # Needed if using the local-search widget
+  hardWraps = false
+  unsafe = true
+  xhtml = false
+
 [outputs] # Needed if using the local-search widget
   home = ["HTML", "RSS", "JSON"]
 
