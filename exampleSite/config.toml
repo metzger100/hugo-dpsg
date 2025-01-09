@@ -55,7 +55,7 @@ DefaultContentLanguage = "en"
   single = false # Configure layout for single pages
   # Enable widgets in given order
   widgets = ["local-search", "recent", "categories", "taglist", "social", "languages"]
-  # alternatively "ddg-search" can be used, to search via DuckDuckGo
+  # alternatively "ddg-search" can be used, to search via DuckDuckGo or "search" can be used, to search via Google. "local-search" provides a client side search widget (WARNING: On big websites the local search can cause high traffic)
   # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
 
 [Params.widgets]
